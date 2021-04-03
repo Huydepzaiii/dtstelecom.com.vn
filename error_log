@@ -1,0 +1,70 @@
+[17-Apr-2019 02:03:04 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 18 với truy vấn 
+    select  * FROM wp_posts where 
+	(post_status = 'publish' OR post_status = 'private')	
+	 AND 
+	(
+		   wp_posts.ID IN
+		   (
+				select  term_re.object_id 
+				FROM wp_term_relationships term_re ,wp_term_taxonomy term_tax
+				where 	
+					   term_re.term_taxonomy_id=term_tax.term_taxonomy_id
+					AND
+					   term_tax.taxonomy='danh-muc'	
+					AND 
+							term_tax.term_id in(136)	
+	       )
+	)	
+    order by menu_order asc
+	LIMIT ,
+	
+	 yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/template/taxonomy-danh-muc.php'), lay_post_thuoc_danh_muc_taxmonomy
+[17-Apr-2019 02:03:25 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 18 với truy vấn 
+    select  * FROM wp_posts where 
+	(post_status = 'publish' OR post_status = 'private')	
+	 AND 
+	(
+		   wp_posts.ID IN
+		   (
+				select  term_re.object_id 
+				FROM wp_term_relationships term_re ,wp_term_taxonomy term_tax
+				where 	
+					   term_re.term_taxonomy_id=term_tax.term_taxonomy_id
+					AND
+					   term_tax.taxonomy='danh-muc'	
+					AND 
+							term_tax.term_id in(136)	
+	       )
+	)	
+    order by menu_order asc
+	LIMIT ,
+	
+	 yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/template/taxonomy-danh-muc.php'), lay_post_thuoc_danh_muc_taxmonomy
+[17-Apr-2019 02:10:38 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 18 với truy vấn 
+    select  * FROM wp_posts where 
+	(post_status = 'publish' OR post_status = 'private')	
+	 AND 
+	(
+		   wp_posts.ID IN
+		   (
+				select  term_re.object_id 
+				FROM wp_term_relationships term_re ,wp_term_taxonomy term_tax
+				where 	
+					   term_re.term_taxonomy_id=term_tax.term_taxonomy_id
+					AND
+					   term_tax.taxonomy='danh-muc'	
+					AND 
+							term_tax.term_id in(136)	
+	       )
+	)	
+    order by menu_order asc
+	LIMIT ,
+	
+	 yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/template/taxonomy-danh-muc.php'), lay_post_thuoc_danh_muc_taxmonomy
+[17-Apr-2019 04:49:06 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3 với truy vấn 
+    select  * FROM wp_posts where 
+	(post_status = 'publish' OR post_status = 'private')	
+	 AND  ID =
+    
+	
+	 yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/template/single-dich-vu.php'), get_post_with_id_post

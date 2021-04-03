@@ -1,0 +1,19 @@
+
+
+#newsticker-demo { 
+width:190px; 
+font-family:Verdana,Arial,Sans-Serif;
+font-size:12px;
+}
+
+#newsticker-demo a { text-decoration:none; }
+#newsticker-demo img { border: 2px solid #FFFFFF; }
+
+
+.newsticker-jcarousellite { width:190px; }
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; }
+.newsticker-jcarousellite .thumbnail { float:left; width:190px; }
+.newsticker-jcarousellite .info { float:left; width:190px; }
+.newsticker-jcarousellite .info span.cat { display: block; font-size:10px; color:#808080; }
+
+.clear { clear: both; }
