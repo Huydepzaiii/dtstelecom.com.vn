@@ -1,0 +1,321 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-29 04:05:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/PodsAdmin.php:3623 classes/PodsAdmin.php:3665
+msgid "See %s for more information."
+msgstr "Xem %s để biết thêm thông tin."
+
+#: classes/PodsInit.php:1521
+msgid "Uploaded to this %s"
+msgstr "Đã được tải lên cho %s"
+
+#: classes/PodsInit.php:1518
+msgid "%s Archives"
+msgstr "%s Lưu trữ"
+
+#: classes/PodsInit.php:1520
+msgid "Insert into %s"
+msgstr "Chèn vào %s"
+
+#: classes/PodsInit.php:1517
+msgid "Use as featured image"
+msgstr "Sử dụng như ảnh chính của bài viết"
+
+#: classes/PodsInit.php:1515
+msgid "Set featured image"
+msgstr "Chọn ảnh tiêu biểu"
+
+#: classes/PodsInit.php:1516
+msgid "Remove featured image"
+msgstr "Xóa ảnh tiêu biểu"
+
+#: classes/PodsAdmin.php:3718
+msgid "Depth"
+msgstr "Chiều sâu"
+
+#: classes/PodsAdmin.php:3711
+msgid "Full"
+msgstr "Đầy đủ"
+
+#: ui/admin/setup-edit.php:736 ui/admin/setup-add.php:330
+msgid "Taxonomy"
+msgstr "Phân loại"
+
+#: ui/admin/setup-edit.php:735 ui/admin/setup-add.php:306
+msgid "Post Type"
+msgstr "Loại Bài viết"
+
+#: classes/PodsAdmin.php:1550 classes/PodsInit.php:1514
+#: ui/admin/setup-edit.php:396
+msgid "Featured Image"
+msgstr "Ảnh chức năng cho bài viết"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:137
+#: ui/admin/upgrade/upgrade_2_0_0.php:245
+msgid "Content"
+msgstr "Nội dung"
+
+#: ui/admin/setup-edit.php:421
+msgid "Revisions"
+msgstr "Bản sửa đổi"
+
+#: classes/PodsAdmin.php:1502
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: ui/admin/setup-edit-field-fluid.php:141
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: ui/admin/setup-edit.php:391
+msgid "Author"
+msgstr "Tác giả"
+
+#: ui/admin/setup-add.php:167
+msgid "Menu Label"
+msgstr "Nhãn menu"
+
+#: ui/admin/setup-edit.php:381 ui/admin/widgets/field.php:15
+#: ui/admin/widgets/single.php:17 ui/admin/widgets/list.php:17
+#: ui/admin/widgets/view.php:15 ui/admin/widgets/form.php:15
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: classes/fields/currency.php:125 ui/fields/color.php:15
+msgid "Default"
+msgstr "Mặc định"
+
+#: ui/fields/color.php:16
+msgid "Select Color"
+msgstr "Chọn màu"
+
+#: ui/fields/color.php:17
+msgid "Current Color"
+msgstr "Màu hiện tại"
+
+#: ui/admin/view.php:56 ui/admin/form.php:242
+msgid "Last Modified"
+msgstr "Chỉnh sửa lần cuối"
+
+#: components/Roles/ui/edit.php:49 ui/admin/form-settings.php:85
+#: ui/admin/form.php:128
+msgid "Save"
+msgstr "Lưu"
+
+#: components/Migrate-Packages/ui/wizard.php:51
+msgid "Import"
+msgstr "Nhập"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "Gửi"
+
+#: classes/fields/pick.php:509 components/Roles/Roles.php:94
+#: ui/admin/setup-add.php:261
+msgid "Users"
+msgstr "Người dùng"
+
+#: classes/fields/pick.php:522
+msgid "User Capabilities"
+msgstr "Khả năng của thành viên"
+
+#: classes/fields/pick.php:535 ui/admin/setup-edit.php:416
+#: ui/admin/setup-add.php:262
+msgid "Comments"
+msgstr "Góp ý"
+
+#: classes/fields/pick.php:467 ui/admin/setup-edit.php:519
+#: ui/admin/setup-edit.php:735
+msgid "Post Types"
+msgstr "Loại bài đăng"
+
+#: classes/fields/pick.php:502 ui/admin/setup-edit.php:488
+#: ui/admin/setup-edit.php:736
+msgid "Taxonomies"
+msgstr "Nguyên tắc phân loại"
+
+#: classes/fields/boolean.php:52 classes/fields/boolean.php:206
+#: classes/fields/boolean.php:229 classes/PodsAdmin.php:3778
+#: classes/PodsAdmin.php:3782 classes/PodsAdmin.php:3790
+#: classes/PodsAdmin.php:3794 classes/PodsAdmin.php:3798
+#: classes/PodsAdmin.php:3802 classes/PodsAdmin.php:3806
+#: classes/PodsAdmin.php:3810 classes/PodsAdmin.php:3814
+#: classes/PodsAdmin.php:3818 classes/PodsAdmin.php:3822
+#: classes/PodsAdmin.php:3834 classes/PodsAdmin.php:3842
+#: classes/PodsAdmin.php:3846 classes/PodsAdmin.php:3850
+#: classes/PodsAdmin.php:3854 classes/PodsAdmin.php:3858
+#: classes/PodsAdmin.php:3862 classes/PodsAdmin.php:3866
+#: classes/PodsUI.php:3048 classes/PodsUI.php:3442 classes/PodsUI.php:3646
+msgid "Yes"
+msgstr "Có"
+
+#: classes/fields/boolean.php:57 classes/fields/boolean.php:207
+#: classes/fields/boolean.php:230 classes/PodsAdmin.php:3778
+#: classes/PodsAdmin.php:3782 classes/PodsAdmin.php:3790
+#: classes/PodsAdmin.php:3794 classes/PodsAdmin.php:3798
+#: classes/PodsAdmin.php:3802 classes/PodsAdmin.php:3806
+#: classes/PodsAdmin.php:3810 classes/PodsAdmin.php:3814
+#: classes/PodsAdmin.php:3818 classes/PodsAdmin.php:3822
+#: classes/PodsAdmin.php:3834 classes/PodsAdmin.php:3842
+#: classes/PodsAdmin.php:3846 classes/PodsAdmin.php:3850
+#: classes/PodsAdmin.php:3854 classes/PodsAdmin.php:3858
+#: classes/PodsAdmin.php:3862 classes/PodsAdmin.php:3866
+#: classes/PodsUI.php:3049 classes/PodsUI.php:3443 classes/PodsUI.php:3647
+msgid "No"
+msgstr "Không"
+
+#: classes/PodsInit.php:1504 classes/PodsInit.php:1537
+#: classes/PodsInit.php:2079 classes/PodsUI.php:1060
+msgid "Edit %s"
+msgstr "chỉnh sửa %s"
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/PodsInit.php:1452 classes/PodsInit.php:1464 components/Pages.php:218
+#: components/Pages.php:230 components/Helpers.php:128
+#: components/Helpers.php:140 components/Templates/Templates.php:188
+#: components/Templates/Templates.php:200 ui/admin/view.php:41
+#: ui/admin/form.php:227
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: classes/PodsUI.php:3172 ui/admin/setup-edit.php:191
+#: ui/admin/setup-edit-field-fluid.php:240
+msgid "Cancel"
+msgstr "Hủy"
+
+#: classes/PodsAdmin.php:2982 ui/admin/setup-edit-field-fluid.php:89
+msgid "Description"
+msgstr "Miêu tả"
+
+#: classes/PodsUI.php:3589 classes/PodsUI.php:3621 classes/PodsUI.php:3656
+#: classes/PodsUI.php:3682 ui/fields/color.php:14
+msgid "Clear"
+msgstr "Xóa"
+
+#: classes/PodsUI.php:3146 classes/PodsUI.php:4582
+msgid "Apply"
+msgstr "Đồng ý"
+
+#: classes/PodsInit.php:1508 classes/PodsInit.php:1534
+msgid "All %s"
+msgstr "Tất cả %s"
+
+#: classes/PodsInit.php:1539 classes/PodsUI.php:1072
+msgid "Update %s"
+msgstr "Cập nhật %s"
+
+#: classes/PodsUI.php:3349
+msgid "Reset"
+msgstr "Đặt lại dữ liệu"
+
+#: classes/PodsInit.php:1501 classes/PodsInit.php:1540 classes/PodsUI.php:1059
+#: classes/PodsUI.php:1070
+msgid "Add New %s"
+msgstr "Thêm Mới %s"
+
+#: classes/PodsInit.php:1502
+msgid "New %s"
+msgstr "Mới %s"
+
+#: classes/PodsInit.php:1505 classes/PodsInit.php:1506
+#: classes/PodsInit.php:1507 classes/PodsInit.php:1538 classes/PodsUI.php:1062
+#: classes/PodsUI.php:1075 ui/admin/view.php:30 ui/admin/form.php:90
+#: ui/admin/form.php:115 ui/admin/form.php:216
+msgid "View %s"
+msgstr "Xem %s"
+
+#: classes/PodsInit.php:1509 classes/PodsInit.php:1532 classes/PodsUI.php:1064
+msgid "Search %s"
+msgstr "Tìm kiếm %s"
+
+#: classes/PodsUI.php:3764
+msgid "No %s found"
+msgstr "Không %s được tìm thấy"
+
+#: classes/PodsAdmin.php:2974 classes/PodsAdmin.php:3011
+msgid "Category"
+msgstr "Chuyên mục"
+
+#: classes/Pods.php:4431 classes/PodsAdmin.php:2314 classes/PodsUI.php:4415
+#: ui/admin/setup-edit.php:699 ui/admin/setup-edit-field-fluid.php:22
+#: ui/admin/view.php:81 ui/admin/setup-edit-field.php:70 ui/admin/form.php:287
+msgid "Delete"
+msgstr "Xóa"
+
+#: classes/PodsAdmin.php:296 classes/PodsAdmin.php:1051
+#: classes/PodsAdmin.php:3001
+msgid "All"
+msgstr "Tất cả"
+
+#: classes/PodsAdmin.php:582 ui/admin/upgrade/upgrade_2_1_0.php:24
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: classes/PodsAdmin.php:925 classes/PodsAdmin.php:2966
+#: classes/PodsAdmin.php:3713 classes/PodsUI.php:1083
+#: components/Roles/Roles.php:91 components/Roles/ui/add.php:50
+#: ui/admin/setup-edit.php:285 ui/admin/setup-edit.php:301
+#: ui/admin/setup-edit-field-fluid.php:75
+msgid "Name"
+msgstr "Tên"
+
+#: classes/Pods.php:3977 classes/PodsAdmin.php:777 classes/PodsForm.php:400
+#: ui/admin/components-admin.php:107
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: classes/PodsAdmin.php:564 classes/PodsAdmin.php:587
+#: ui/admin/components-admin.php:10 ui/admin/upgrade/upgrade_2_0_0.php:206
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: classes/PodsI18n.php:175 classes/PodsAdmin.php:300 classes/PodsAdmin.php:374
+#: classes/PodsAdmin.php:1359 classes/PodsAdmin.php:2312
+#: classes/PodsInit.php:1503 classes/PodsUI.php:1047 classes/PodsUI.php:4384
+#: ui/admin/setup-edit.php:181 ui/admin/setup-edit-field-fluid.php:18
+#: ui/admin/setup-edit-field.php:66
+msgid "Edit"
+msgstr "Sửa"
+
+#: classes/PodsAdmin.php:569 classes/PodsAdmin.php:592
+msgid "Help"
+msgstr "Giúp đỡ"
+
+#: classes/Pods.php:4424 classes/PodsAdmin.php:2316
+#: components/Migrate-Packages/ui/wizard.php:64
+msgid "Export"
+msgstr "Xuất"
+
+#: classes/PodsAdmin.php:1379 classes/PodsAdmin.php:2313
+#: classes/PodsUI.php:1048 classes/PodsUI.php:4399
+#: ui/admin/setup-edit-field-fluid.php:20 ui/admin/setup-edit-field.php:68
+msgid "Duplicate"
+msgstr "Sao chép"
+
+#: classes/PodsAdmin.php:370 classes/PodsAdmin.php:396
+#: classes/PodsAdmin.php:1427 classes/PodsUI.php:1045
+#: components/Roles/ui/edit.php:41 ui/admin/setup-edit.php:693
+#: ui/admin/view.php:17 ui/admin/form.php:202
+msgid "Manage"
+msgstr "Quản lý"
+
+#: classes/PodsAdmin.php:559 classes/PodsAdmin.php:2961
+msgid "Components"
+msgstr "Thành tố"
+
+#: classes/PodsAdmin.php:926 classes/PodsAdmin.php:1053
+msgid "Type"
+msgstr "Gõ"

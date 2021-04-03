@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+
+<html class="gr__cloudbacko_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/bootstrap.css" rel="stylesheet"> 
+<link href="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/responsive-main.css" rel="stylesheet">
+<link href="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/common.css" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script async="" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/analytics.js.download"></script><script async="" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/fbevents.js.download"></script><script src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/jquery.min.js.download"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/bootstrap.min.js.download"></script>
+<script src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/common.js.download"></script>
+
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/2624837.js.download"></script>
+<!-- End of HubSpot Embed Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140387256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140387256-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<link rel="icon" type="image/x-icon" href="https://dtstelecom.com.vn/wp-content/themes/template/images/favicon.png">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="description" content="Sao lưu máy ảo Hyper-V / VMware  vào bộ lưu trữ từ DTS hay trên Public Cloud như Azure, Amazon S3 với tốc độ khủng? Kiểm tra cách làm của chúng tôi, cực dễ dàng, không hề tốn sức ...">
+<meta name="keywords" content="hyper-v vm backup, hyper-v backup software">
+<meta name="classification" content="Software">
+<meta name="distribution" content="Global"> 
+<meta name="rating" content="General"> 
+<meta name="revisit-after" content="15"> 
+<meta name="robots" content="ALL"> 
+<meta name="copyright" content="DTS Telecom Corporation, https://dtstelecom.com.vn/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Micrsoft Hyper-v VM Back-up | DTS Telecom HyperV Backup Software</title>
+<style>
+.topbannerbg {
+	background-color:#000;
+	background: -webkit-linear-gradient(left top, #000, #666);
+	background: -o-linear-gradient(left top, #000, #666);
+	background: -moz-linear-gradient(left top, #000, #666);
+	background: linear-gradient(left top, #000, #666);
+}
+.hyperv , .benefit{
+background-color: #00BF1C!important;}
+.bg_DarkGreen {
+    background-color: #203219;
+}
+.bg_grey {
+    background-color: #efefef;
+}
+#mainPicTitleYellow {
+    font-family: 'Open Sans', Arial;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FDCD0A;
+}
+#mainPicTitle {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    clear: both;
+    color: #FFF;
+    padding: 5px;
+    margin: 0% auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+.bg_red {
+    background-color: #C00;
+}
+.topbanner-ico {font-weight:normal; font-size:24px;}
+.ico-home {
+	width:80px;
+	height:auto;
+}
+.ico-home-s {
+	width:64px;
+	height:auto;
+}
+.btn-right-corner {
+	display:none;
+}
+@media (min-width: 768px) {
+	.btn-right-corner {
+		display:inline-block;
+		position:absolute;
+		width:200px;
+		left:calc(50% - 100px);
+		bottom:120px;
+	}
+}
+
+.testimonial-border {
+	/*border:1px solid #ccc;*/
+	padding:10px;
+}
+.testimonial-pic {
+	height:84px;
+	width:auto;
+	/*border:2px solid #009;*/
+	border-radius:50%;
+}
+.testimonial-box {
+    height: auto;
+	margin-bottom:20px;
+}
+@media (min-width: 768px) {
+	.testimonial-pic {
+		height:100px;
+	}
+}
+@media (min-width: 977px) {
+	.testimonial-box {
+		height: 190px;
+	}
+}
+.header-pic img {
+	width:75%;
+	max-width:600px;
+	border-radius:0%;
+}
+
+.offer-box-top {
+	display:block;
+	padding:10px;
+	border-width:2px;
+	border-style:solid;
+	border-radius:0 0 20px 20px;
+	/*height:320px;*/
+	margin:0px 5px 10px 5px;
+	position:relative;
+}
+@media (max-width: 768px) {
+	.offer-box-top {
+		/*height:320px;*/
+	}
+}
+@media (max-width: 480px) {
+	.offer-box-top {
+		/*height:300px;*/
+	}
+}
+.offer-box-head {
+	display:block;
+	padding:5px;
+	border-width:2px;
+	border-style:solid;
+	border-radius: 20px 20px 0 0;
+	margin:10px 5px 0px 5px;
+	position:relative;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+.offer-box-head h3 {
+	color:#fff;
+	font-weight:bold;
+	line-height:1em;
+	margin:10px 0;
+}
+.package-icon {
+	width:60px;
+	height:60px;
+	border-radius:6px;
+	margin:2px;
+}
+.package-icon-s {
+	width:30px;
+	height:30px;
+	border-radius:4px;
+	margin:1px;
+}
+.multi-icon-box {
+	display:inline-block;
+	width:100px;
+	height:auto;
+	margin:2px;
+	vertical-align:middle;
+}
+.img-responsive {display:inline-block;}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+	margin-bottom:0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.topbanner-ico img {
+    max-width: 150px;
+    height: auto;
+}
+.topbanner-ico {
+    height: 300px;
+}
+.greybg {
+  	position: relative;
+	background-color: #fff;
+}
+.greybg:before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: -60px;
+  width: 100%;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  /*border-width:  0 0 60px 100vw;  descend from left to right */
+  border-width: 0 100vw 60px 0; /* descend from right to left */
+  border-color:  transparent transparent #666 transparent;
+}
+.greybg:after {
+  /*position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  bottom: -60px;
+  width: 100%;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  border-style: solid;*/
+  /*border-width: 60px 0 0 100vw;  descend from left to right */
+  /*border-width: 60px 100vw 0 0;  descend from right to left */
+  /*border-color: #666 transparent transparent transparent;*/
+}
+@media (max-width:990px) {
+	.greybg:before {
+	  top: -40px;
+	  /*border-width:  0 0 40px 100vw;  descend from left to right */
+	  border-width: 0 100vw 40px 0; /* descend from right to left */
+	}
+	.greybg:after {
+	  /*bottom: -40px;
+	  /*border-width: 40px 0 0 100vw;  descend from left to right */
+	  /*border-width: 40px 100vw 0 0;  descend from right to left */
+	}
+}
+</style>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">#mc_embed_signup input.mce_inline_error { border-color:#6B0505; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff; }</style></head>
+<body data-gr-c-s-loaded="true" style="zoom: 1;">
+
+<script language="JavaScript">
+<!--
+function setCookie(sName, sValue, sExdays) {
+	var d = new Date();
+	d.setTime(d.getTime() + (sExdays*24*60*60*1000));
+	var expires = "expires="+d.toUTCString();
+	document.cookie = sName + "=" + sValue + "; " + expires;
+}
+
+function getCookie(sName) {
+	var name = sName + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0; i<ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1);
+		if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+	}
+	return "";
+}
+
+function onLoadMenu() {
+	var lang = getCookie("lang");
+	redirect(lang);
+}
+
+function selectLang(sCookieName, sCookieValue, sExdays) {
+	setCookie(sCookieName, sCookieValue, sExdays);
+	redirect(sCookieValue);
+}
+
+function redirect(lang) {
+	if (lang == "en") {
+		window.location = "/en/cloudbacko-advanced-cloud-local-server-workstation-amazon-S3-google-backup-software-benefits.jsp";
+	} else if (lang == "zh_TW") {
+		window.location = "/zh_TW/cloudbacko-advanced-cloud-local-server-workstation-amazon-S3-google-backup-software-benefits.jsp";
+		//$("#idTw").attr("selected", "selected")
+	} else if (lang == "zh_CN") {
+		window.location ="/zh_CN/cloudbacko-advanced-cloud-local-server-workstation-amazon-S3-google-backup-software-benefits.jsp";
+		//$("#idCn").attr("selected", "selected")
+	}
+}
+//-->
+var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1); 
+</script>
+<link href="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/en.css" rel="stylesheet">
+<style>
+.dropdown-menu {
+    min-width: 62px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #00bf1c;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-fixed-top .navbar-collapse {
+    max-height: 100vh;
+}
+.lang-text {
+	color:#ccc;
+	display:block;
+	text-align:left;
+	margin-left:20px;
+	text-decoration:none;
+}
+.lang-text:hover {
+	color:#fff;
+	text-decoration:none;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 22px;
+    line-height: 20px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #00bf1c;
+}
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+.logo {
+	width:150px;
+	height:auto;
+}
+.module-ico {
+	width:24px;
+	height:24px;
+	border-radius:50%;
+	margin-right:8px;
+}
+.module-ico-cbh {
+	width:24px;
+	height:24px;
+	border-radius:0px;
+	margin-right:8px;
+}
+@media (min-width: 980px) {
+	.lang-text {
+		color:#333;
+		margin-left:0px;
+		text-align:center;
+	}
+	.lang-text:hover {
+		color:#666;
+	}
+}
+.sale-banner {
+	display:block;
+	position:absolute;
+	top:50px;
+	width:auto;
+	height:40px;
+	z-index:1000;
+}
+.text-alignment {
+	text-align:center;	
+}
+@media (min-width: 997px) {
+	.text-alignment {
+		text-align:left;	
+	}
+}
+.new-version-banner {
+	position:fixed;
+	background-image:url(./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/new-banner.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	top:50px;
+	width:auto;
+	height:36px;
+	color:#fff;
+	font-size:22px;
+	padding:6px 15px 6px 15px;
+	text-align:center;
+	z-index:1001;
+}
+@media (max-width: 768px) {
+
+}
+
+.floating_banner a {
+	position:fixed;
+	display:block;
+	bottom:40px;
+	width:100%;
+	height:40px;
+	border:none;
+	font-weight: bold;
+	line-height:40px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px 10px;
+	background-color: #0084ff;
+	border-radius:0 0 0 0;
+	transform: rotate(0deg);
+	transform-origin: right bottom 0;
+	z-index:1030;
+	cursor: pointer;
+}
+.floating_banner a:hover {
+	background-color: #000;
+}
+.floating_banner a img {
+	width:24px;
+	height:24px;
+	transform: rotate(-0deg);
+	transform-origin: center center 0;
+}
+/* floating banner */
+@media (min-width: 768px) {
+	.floating_banner a {
+		position:fixed;
+		display:inline-block;
+		top:210px;
+		right:0px;
+		width:auto;
+		border-radius: 0;
+		transform: rotate(270deg);
+		transform-origin: right bottom 0;
+	}
+	.floating_banner a img {
+		transform: rotate(-270deg);
+		transform-origin: center center 0;
+	}
+}
+.two-col {
+	width:100%;	
+}
+a li.two-col-list {
+	padding: 10px;
+	background-color:#fff;
+	color:#333;	
+	text-decoration:none;
+}
+a li.two-col-list:hover, a li.two-col-list:focus, a li.two-col-list:active {
+	color:#333;
+	text-decoration:none;
+	background-color:#f5f5f5;
+}
+@media (min-width:769px) {
+	.two-col {
+		width:640px;	
+	}
+}
+</style>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="https://dtstelecom.com.vn">
+				<img class="logo" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/dtstelecom_logo.png" alt="DTS Telecom, Secure Cloud &amp; VM Backup">
+			</a>
+		</div>
+    
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+                                                         
+                    <li class="dropdown">
+					<a href="" class="dropdown-toggle dest-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="text-active-dest", style="font-size: 20px">Destinations</span> <span class="caret text-dest-active"></span></a>
+						<ul class="dropdown-menu two-col" role="menu">
+                        
+                        	<div class="col-xs-12 col-sm-6" style="padding-left:0; padding-right:0; text-indent:20px;">
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-acd.png">Amazon Drive</li></a>
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-amazon.png">Amazon S3</li></a> 
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-amazon.png">S3-Compatible Cloud Storage</li></a>
+								<a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-ftp.png">SFTP / FTP</li></a>
+                                
+                            </div>
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-dropbox.png">Dropbox</li></a>
+                            	
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-google.png">Google Drive</li></a>
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-azure.png">Microsoft Azure</li></a>
+                                <a href=""><li class="two-col-list"><img class="ico24 ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-one.png">Microsoft OneDrive</li></a> 
+                            
+								<!--<li role="separator" class="divider"></li> -->							
+                            
+						</ul>
+					</li>
+                    
+                    <li class="dropdown">
+					<a href="" class="dropdown-toggle about-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="text-active-ab", style="font-size: 20px">Downloads</span> <span class="caret text-dest-active"></span></a>
+						<ul class="dropdown-menu " role="menu">
+							<table class="table DownButTable">
+                    
+                    	<!-- download pro win version -->
+						<tbody>
+						<tr>
+                            <td><img class="ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-win-w.png" align="absmiddle">Windows (.exe)</td>
+                            <td align="center"><div class="btn_dl"><a href="" target="_blank"></a></div></td>
+						</tr>
+						<!-- download pro win version end -->
+                            
+						<!-- download pro mac version -->
+						<tr>
+                            <td><img class="ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-mac-w.png" align="absmiddle">Mac OS X (.dmg)</td>
+                            <td align="center"><div class="btn_dl"><a href="" target="_blank"></a></div></td>
+						</tr>
+						<!-- download pro mac version end -->
+                           
+						<!-- download pro linux version -->
+						<tr>
+                            <td><img class="ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-linux-w.png" align="absmiddle">Linux 64-Bit (.rpm)</td>
+                            <td align="center"><div class="btn_dl"><a href="" target="_blank"></a></div></td>
+						</tr>
+						<!-- download pro linux version end -->
+                            
+						<!-- download pro linux version -->
+						<tr>
+                            <td><img class="ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-linux-w.png" align="absmiddle">Linux 64-Bit (.tar.gz)</td>
+                            <td align="center"><div class="btn_dl"><a href="" target="_blank"></a></div></td>
+						</tr>
+						<!-- download pro linux version end -->
+                        
+                        <!-- download pro ubuntu64 version -->
+						<tr>
+                            <td><img class="ico-right-margin" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico_ubuntu.png" align="absmiddle">Ubuntu 64-Bit (.deb)</td>
+                            <td align="center"><div class="btn_dl"><a href="" target="_blank"></a></div></td>
+						</tr>
+						<!-- download pro ubuntu64 version end -->
+						</tbody>
+							</table>
+						<!--<li role="separator" class="divider"></li> -->	
+						</ul>
+                            
+					</li>
+
+                                                         
+                    <li class="dropdown">
+					<a href="" class="dropdown-toggle about-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="text-active-ab", style="font-size: 20px">About Us</span> <span class="caret text-active-ab"></span></a>
+						<ul class="dropdown-menu" role="menu">
+                        	<li><a href="https://dtstelecom.com.vn/vi/gioi-thieu/dts-telecom">Company Profile</a></li>
+							<li><a href="https://dtstelecom.com.vn/vi/tin-tuc">News</a></li>
+                            <li><a href="https://dtstelecom.com.vn/vi/ho-tro-kh/chinh-sach-bao-mat-thong-tin">Privacy Policy</a></li>
+								<!--<li role="separator" class="divider"></li> -->	
+						</ul>
+					</li>
+                    
+                    <li><a href="https://dtstelecom.com.vn/lien-he"><span class="text-active-ab", style="font-size: 20px">Contact</span> </a></li>
+                       
+				</ul>
+                
+               
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+    
+</nav>
+
+<div class="topbannerbg">
+	<div class="topbanner">
+    	<div class="container-fluid">
+        	<div class="container">
+				<div class="row">  
+					<div class="col-xs-12 col-md-6" style="position:relative;">
+                    	<img class="img-responsive img-header" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/cbk_solution_hyperv.png" alt="Hyper-V / VMware  Guest VM Backup">
+                    </div>
+					<!--<li role="separator" class="divider"></li> -->		
+                    <div class="col-xs-12 col-md-6">
+                    	<br>
+                    	<h1 style="color:#fff;">Giải pháp sao lưu VM Hyper-V / VMware </h1>
+                    	<h3 style="color:#fff;">Khôi phục VM tức thời - Sao lưu nhanh chóng</h3>
+                    	<br>
+					</div>
+            	</div>
+                
+        	</div>
+    	</div>
+	</div>
+</div>
+
+<div class="whitebg">
+	<div class="container">
+		<div class="row" style="clear:both;">
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+                	<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-infinity.png"><br>
+                    Không giới hạn<br>số lượng VM<!--<span class="round-new-ico">NEW</span> -->
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+            		<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-instant-spin-up.png"><br>
+					Sao lưu<br>VM ngay lập tức
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+                	<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-vm.png"><br>
+                    Khôi phục đầy đủ VM image<br>và từng tệp VHD 
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+                	<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-granular.png"><br>
+                    Khôi phục chi tiết<br>từng tệp tin trong VM
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+                	<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-cluster.png"><br>
+                    Hỗ trợ<br>Hyper-V / VMware  Cluster
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-4">
+            	<div class="topbanner-ico">
+                	<img class="ico-round" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-home-multi-dest.png"><br>
+                    Khôi phục VMs tới<br>host theo yêu cầu
+				</div>
+			</div>
+		</div><!-- .row -->
+	</div>
+</div>
+
+<div class="container-fluid" style="background-color:#eee; padding:80px 0;">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-xs-12 col-md-6">
+            	<h2>Khôi phục VM tức thời cho Hyper-V / VMware </h2>
+            	<p style="font-size:18px">Bạn có những máy ảo Hyper-V / VMware  quan trọng không được phép ngưng hoạt động không? DTS Telecom mới phát triển tính năng VM Run Direct cho phép bạn giảm thiểu thời gian ngừng hoạt động của VM xuống còn vài phút. Giờ đây, bạn có thể khôi phục Hyper-V / VMware  VM ngay lập tức từ bản sao lưu mà không cần khôi phục hoàn toàn Image đã sao lưu. DTS có thể khởi động VM trực tiếp từ bản sao lưu và giúp người dùng truy cập lại vào VM ngay lập tức. Ngoài ra, di chuyển trực tiếp có thể được thực hiện trong khi VM đang chạy. Xem cách nó hoạt động trong video này:</p>
+			</div>
+        	<div class="col-xs-12 col-md-6 text-center">
+            	<div class="videoWrapper">
+                	<iframe width="1280" height="720" src="https://www.youtube.com/embed/I2jNkcV52KY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        	</div>
+		</div>
+	</div>
+</div>
+
+<div class="whitebg">
+	<div class="container">
+		<div class="row">
+        	<div class="col-xs-12 col-md-7 text-center">
+            	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/diagram-granular-restore.png" class="img-responsive">
+        	</div>
+            <div class="col-xs-12 col-md-5">
+            	<h2>Khôi phục chi tiết tệp tin trong VMs</h2>
+            	<p style="font-size:18px">Cần một cách nhanh chóng và thuận tiện để truy xuất các tệp mong muốn của bạn trên máy khách VM? Tính năng Khôi phục chi tiết của sản phẩm Backup từ DTS Telecom cho phép bạn truy cập và khôi phục các tệp riêng lẻ trong VM image được sao lưu mà không cần phải khôi phục hoàn toàn VM trước. Nó giúp bạn giảm đáng kể thời gian sao lưu, tài nguyên lưu trữ và nỗ lực quản lý để sao lưu dự phòng.</p>
+                <table class="table  "><!-- table-striped -->
+                    <tbody><tr><td><div class="ico_tick", style="font-size:15px">- Cho phép khôi phục mức tệp tin và image </div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Giảm thời gian phục hồi của các tệp quan trọng đối với VM</div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Hỗ trợ lưu trữ ở DTS và các Public Cloud (nếu muốn)</div></td></tr>
+                </tbody></table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="background-color:#eee; padding:80px 0;">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-xs-12 col-md-7">
+            	<h2>Sao lưu máy ảo Hyper-V / VMware  (VM) lớn trong vài phút</h2>
+            	<p style="font-size:18px">Bạn sẽ lưu gặp khó khăn khi sao lưu các máy ảo có dung lượng lớn? Giải pháp sao lưu DTS được tích hợp với cải tiến; Phần mềm sao lưu siêu tốc độ đảm bảo sao lưu nhanh nhất các máy ảo hyper-v. Theo bài test của DTS, phần mềm có thể sao lưu tối đa 100 GB VM một cách an toàn trong vài phút. Hyper-V / VMware  Server 2008, 2008 R2, 2012, 2012 R2 đều được hỗ trợ.</p>
+                <table class="table "><!-- table-striped -->
+                    <tbody><tr><td><div class="ico_tick", style="font-size:15px">- Tính năng incremental backup nhanh chóng cho VM</div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Không có thời gian chết (downtime) với Scheduled hot backup </div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Sao lưu đa luồng nhanh chóng</div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Cấu hình tỷ lệ nén dữ liệu</div></td></tr>
+                    <tr><td><div class="ico_tick", style="font-size:15px">- Khôi phục máy ảo Hyper-V / VMware  sang máy chủ Hyper-V / VMware  hoặc môi trường cụm Hyper-V / VMware  khác</div></td></tr>
+                </tbody></table>
+			</div>
+        	<div class="col-xs-12 col-md-5 text-center">
+            	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/hyper-v.png" class="img-responsive">
+        	</div>
+		</div>
+	</div>
+</div>
+						         
+<div class="whitebg">
+	<div class="container">
+		<div class="row">
+        	<div class="col-xs-12 col-md-6 text-center">
+            	<div class="col-xs-12 col-sm-4 text-center">
+                	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/lock-icon1.png" class="img-responsive">
+                    <br>Dữ liệu của bạn được mã hóa ở mức tối đa
+                </div>
+            	<div class="col-xs-12 col-sm-4 text-center">
+                	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/lock-icon2.png" class="img-responsive">
+                    <br>Các khóa mã hóa sẽ luôn phức tạp
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/lock-icon3.png" class="img-responsive">
+                    <br>Không thể bẻ khóa, Siêu máy tính với 10.51 Pentaflops phải cần 3.31 x 10<sup>56</sup> năm để bẻ khóa 
+                </div>
+        	</div>
+            <div class="col-xs-12 col-md-6">
+            	<h2>Chỉ DTS Telecom mã hóa cho các tên tệp tin của bạn</h2>
+            	<p style="font-size:18px">Bạn cần một giải pháp sao lưu đám mây để sao lưu các máy ảo Microsoft Hyper-V / VMware ? Giải pháp sao lưu của DTS Telecom là sự lựa chọn hoàn hảo của bạn. Đây là giải pháp sao lưu có thể mã hóa mọi thứ bằng khóa ngẫu nhiên (random keys) với mã hóa 256 bit, bao gồm tất cả dữ liệu và tên tệp. Không ai có thể mở các máy ảo Hyper-V / VMware  được sao lưu của bạn. </p>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="background-color:#eee; padding:80px 0;">   
+    	<div class="row">
+   			<div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-easy.png"></div>
+				<h2 style="text-align:center">Dễ sử dụng</h2>
+         		<p align="center", style="font-size:17px">DTS Telecom đi kèm với giao diện người dùng trực quan nhất rất dễ sử dụng. Không cần có bất kỳ quy trình đào tạo. Bất cứ khi nào bạn cần trợ giúp, nút Help trên mỗi trang sẽ cung cấp cho bạn câu trả lời ngay lập tức.</p>
+			</div>
+            <div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-cdp.png"></div>
+				<h2 style="text-align:center">Sao lưu liên tục</h2>
+         		<p align="center", style="font-size:17px">Để thay đổi dữ liệu thường xuyên trong HĐH Windows, bạn có thể bật tính năng Continuous Backup. DTS Telecom sau đó sẽ tiếp tục sao lưu dữ liệu của bạn trong quá trình chạy ngầm.</p>
+			</div>
+            <div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-report.png"></div>
+				<h2 style="text-align:center">Báo cáo rõ ràng</h2>
+         		<p align="center", style="font-size:17px">Với công cụ báo cáo của giải pháp sao lưu DTS Telecom, bạn có thể thấy rõ các chi tiết sao lưu của tất cả các điểm đến, bao gồm xu hướng sử dụng, báo cáo sao lưu và khôi phục, đăng nhập để cảnh báo và lỗi, v.v.</p>
+			</div>
+    	</div>
+        <div class="row">
+   			<div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-guaranteed.png"></div>
+				<h2 style="text-align:center">Đảm bảo việc Khôi phục</h2>
+         		<p align="center", style="font-size:17px">Với công nghệ đảm bảo tính toàn vẹn dữ liệu sao lưu, các bản chạy thử nghiệm có thể thường xuyên được khởi chạy để đảm bảo khả năng phục hồi dữ liệu được sao lưu của hệ thống.</p>
+			</div>
+            <div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-protection.png"></div>
+				<h2 style="text-align:center">Dữ liệu được mã hóa</h2>
+         		<p align="center", style="font-size:17px">DTS Telecom sẽ mã hóa mọi thứ bằng khóa ngẫu nhiên mã hóa 256 bit, bao gồm tất cả dữ liệu và tên tệp. Dữ liệu sao lưu của bạn là không thể phá vỡ, vì ngay cả siêu máy tính 10,51 Pentaflops cũng cần 3,31 x 1056 năm để bẻ khóa.</p>
+			</div>
+            <div class="col-xs-12 col-sm-4">
+            	<div align="center"><img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-versioning.png"></div>
+				<h2 style="text-align:center">Duy trì file & Lưu trữ theo phiên bản</h2>
+         		<p align="center", style="font-size:17px">Bạn có thể xác định quy tắc lưu giữ dữ liệu linh hoạt (theo phiên bản) để giữ các phiên bản lịch sử của dữ liệu của mình. Nếu bạn cần giữ các phiên bản thông qua thiết lập chính sách duy trì. Những phiên bản đó có thể được giữ mãi mãi nếu cần..</p>
+			</div>
+    	</div>
+        
+    </div>
+</div>
+
+<div class="whitebg">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-xs-12 col-md-6">
+            	<h2>Hỗ trợ Windows, Mac OS X, and Linux</h2>
+                <p align="left", style="font-size:18px">Bạn có thiết bị với các nền tảng hoạt động khác nhau để sao lưu? DTS Telecom có ​​thể được cài đặt trên Windows, Mac OS X và Linux, do đó cho phép bạn sao lưu tất cả các máy của mình với cùng một giải pháp..</p>
+			</div>
+        	<div class="col-xs-12 col-md-6 text-center">
+            	<img class="img-responsive" src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/homepic-platforms.png">
+        	</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+    <script>
+window.onload = function() {
+	var d = new Date();
+	var days = d.getDate();
+	var formattedDay = ("0" + days).slice(-2);
+	var months = ["01","02","03","04","05","06","07","08","09","10","11","12"];
+	document.getElementById('mce-JOINDATE-day').value = formattedDay;
+	document.getElementById('mce-JOINDATE-month').value = months[d.getMonth()];
+	document.getElementById('mce-JOINDATE-year').value = d.getFullYear();
+	
+	var rf = "";
+	var kw = "";
+	var cp = "";
+	var ag = "";
+	var at = "";
+	var rt = "";
+	document.getElementById('mce-REFERRER').value = getCookie("rf");
+	document.getElementById('mce-KEYWORD').value = getCookie("kw");
+	document.getElementById('mce-CAMPAIGN').value = getCookie("cp");
+	document.getElementById('mce-ADGROUP').value = getCookie("ag");
+	document.getElementById('mce-ADTEXT').value = getCookie("at");
+	document.getElementById('mce-REFERTIME').value = getCookie("rt");
+}
+</script>
+
+
+
+	<div class="container-fluid container-fluid-wider" style="background-color:#eee; padding:40px 0;">
+		<div class="col-xs-12 col-sm-7 col-md-8 col-lg-9 smallest text-muted">
+			<script language="javascript">var vYear = (new Date()).getFullYear();	document.write("&copy; 2014 - " + vYear + " DTS Telecom Corporation ");</script>© 2009 - 2019 DTS Telecom Corporation <br>
+            A wholly owned subsidiary of <a href="http://www.ahsay.com.hk/" target="_blank" class="footerlinkbut">Ahsay Backup Software Development Company Limited</a> 
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3 text-center third-party-logo">
+        	<img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico_award_apple.png" border="0"> <img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico_award_google-play.png" border="0">
+        </div>
+        <div class="social-box">
+        	<wb:like appkey="356Q5Q" type="simple"></wb:like>
+            <a href="https://www.facebook.com/dtstelecom.com.vn/" target="_blank" data-show-count="true" data-show-screen-name="false" data-lang="en"><img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-fb.png" border="0"></a>
+            <a href="https://www.linkedin.com/company/dts-telecom" target="_blank" data-show-count="true" data-show-screen-name="false" data-lang="en"><img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-in.png" border="0"></a>
+            <a href="https://www.instagram.com/dts.telecom/" target="_blank" data-show-count="true" data-show-screen-name="false" data-lang="en"><img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ig-badge-24.png" border="0"></a>
+            <a href="https://www.youtube.com/channel/UCY7F7ijYbJ_DMx1Qhq2b2tg" target="_blank" data-show-count="true" data-show-screen-name="false" data-lang="en"><img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-youtube.png" border="0"></a>
+            <a href="https://dtstelecom.com.vn/tin-tuc" target="_blank" data-show-count="true" data-show-screen-name="false" data-lang="en"><img src="./Micrsoft Hyper-v VM Back-up _ DTS Telecom HyperV Backup Software_files/ico-rss.png" border="0"></a>
+        </div> 
+	</div>
+    
+</nav>		
+<style>
+.navbar {
+	min-height:65px;
+	margin-bottom: 0;
+}
+.container-fluid-wider {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.social-box {
+	position:fixed;
+	width:100%;
+	text-align:center;
+	top:auto;
+	right:auto;
+	bottom:0px;
+	padding:6px 0;
+	background-color:#eee;
+	border-radius:none;
+	z-index:1010;
+}
+.social-box img {
+	display:inline-block;
+	margin:2px;
+	width:24px;
+	height:24px;
+	border-radius:50%;
+}
+.third-party-logo img {
+	height:50px;	
+}
+@media (min-width: 768px) {
+	.social-box {
+		width:40px;
+		top:50px;
+		right:0px;
+		bottom:auto;
+		border-radius:0;
+	}
+	.social-box img {
+		margin:4px 2px;
+	}
+}
+#mc_embed_signup input.button {
+	clear:none;
+	display:inline-block;
+    background-color: #000;
+	border-radius:0 0 0 0;
+	width:120px;
+	height: 34px;
+	margin-left:10px;
+	padding:0 10px;
+}
+#mc_embed_signup form {
+    padding: 0 0 0 0;
+}
+#mc_embed_signup input.email {
+	clear:none;
+	display:inline-block;
+    width: calc(100% - 140px);
+	border-radius:0 0 0 0;
+}
+#mc_embed_signup .mc-field-group {
+    width: 100%;
+    min-height: 10px;
+	padding-top:10px;
+	padding-bottom: 0px;
+	background-color:#f8f8f8;
+}
+</style>
+
+   
+
+<style>
+.item-active {
+	background-color:#00bf1c;
+}
+.text-active {
+    color: #fff;
+}
+</style> 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5cf2aee8b534676f32acede9/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body></html>

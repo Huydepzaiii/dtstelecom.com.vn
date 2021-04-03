@@ -1,0 +1,833 @@
+/*
+	## PRoject Name: Maxrestaurant
+	
+	RTL CSS SETTING::
+	
+	## Genral Setting
+		- Owl Carousel
+		- Revolution Slider
+		- WordPress Common Widget Setting
+		- WooCommerce Product Widget Setting
+		- WooCommerce: MyAccount
+		
+	## Shortcode
+		- ContactForm
+		- WooCommerce Setting
+		- Header
+		- Menu Popup Form
+		- Menu
+		- About Section
+		- Menu Section
+		- Testimonial Section
+		- Single Event Page
+		- Blog
+		- Single Blog
+		- Newsletter Section
+		- Widget Setting
+		- Footer Widget Setting
+		- Book Table Section
+		- Team Section
+		- Footer Setting
+		- Blog
+		- WooCommerce
+		- Order Recevied Form
+		- Contact Form
+		
+	## Responsive
+		- min-width: 992
+		- min-width: 992 to max-width: 1199
+		- max-width: 991
+		- max-width: 767
+		- max-width: 479
+*/
+
+/* ## Genral Setting */
+
+/* - Owl Carousel */
+html[dir="rtl"] .owl-carousel { 
+	direction: ltr;
+}
+html[dir="rtl"] .select_box::before {
+	left: 0;
+	right: auto;
+}
+
+/* - Revolution Slider */
+.rev_slider{
+	direction: ltr;
+}
+html[dir="rtl"] .select_box::before {
+	left: 0;
+	right: auto;
+}
+
+/* - WordPress Common Widget Setting */ 
+html[dir="rtl"] .widget ul,
+html[dir="rtl"] .widget > ul:first-of-type {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget ul.sub-menu {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+html[dir="rtl"] .comment-list {
+	padding-right: 0;
+}
+
+/* - WooCommerce Product Widget Setting */
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li a,
+html[dir="rtl"] .widget_recent_entries ul li a {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li img {
+	float: right;
+	margin: 0 0 0 10px;
+}
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove, 
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove {
+	left: 0;
+	right: auto;
+	float: left;
+}
+
+/* - WooCommerce: MyAccount */
+html[dir="rtl"] .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active::after {
+	right: auto;
+	left: 10px;
+}
+html[dir="rtl"] .woocommerce-account .woocommerce-MyAccount-navigation ul {
+	padding-right: 15px;
+}
+html[dir="rtl"] .woocommerce-message,
+html[dir="rtl"] .woocommerce-info {
+	text-align: left;
+}
+
+/* - ContactForm  */
+body.projectname-rtl .wpcf7-form span.wpcf7-not-valid-tip,
+body.projectname-rtl .wpcf7-form .wpcf7-form-control {
+	text-align: right;
+}
+body.projectname-rtl .wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	float: right;
+}
+body.projectname-rtl .wpcf7-form div.wpcf7-mail-sent-ng, .wpcf7-form div.wpcf7-validation-errors {
+	float: right;
+}
+
+/* - WooCommerce Setting */
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li a,
+html[dir="rtl"] .widget_recent_entries ul li a {
+	padding-right: 0;
+}
+html[dir="rtl"] .widget.woocommerce ul.product_list_widget li img {
+	float: right;
+	margin: 0 0 0 10px;
+}
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove, 
+html[dir="rtl"] .woocommerce.widget_shopping_cart .cart_list li a.remove {
+	left: 0;
+	right: auto;
+	float: left;
+}
+html[dir="rtl"] .woocommerce ul.products li.product .button.product_type_variable.add_to_cart_button {
+	margin-right: 15px;
+	margin-left: 0;
+}
+html[dir="rtl"] .woocommerce div.product form.cart .variations label {
+	margin-left: 15px;
+}
+html[dir="rtl"] .woocommerce div.product form.cart .variations select {
+	margin-left: 15px;
+	margin-right: 0;
+}
+html[dir="rtl"]  .woocommerce .cross-sells ul.products li.product .product_type_simple.add_to_cart_button {
+	float: right;
+}
+
+/* - Header */
+html[dir="rtl"] .header_s .top-header1 .top-left span {
+	float: left;
+	width: 38%;
+	text-align: left;	
+}
+html[dir="rtl"] .header_s .top-header1 .top-left span a i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+html[dir="rtl"] .header_s .top-header1 .top-right .top-social {
+	margin-left: 31px;
+	margin-right: 0;
+}
+html[dir="rtl"] .header_s  .menupopup_btn {
+	float: left;
+}
+html[dir="rtl"] .menupopup_btn i {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+/* - Menu Popup Form */
+html[dir="rtl"] .menu_popupform .modal-dialog {
+	text-align: right;
+}
+html[dir="rtl"] .menu_popupform .input-group-addon {
+	right: 0;
+	left: auto;
+}
+
+html[dir="rtl"] .menu_popupform .wpcf7-form .input-group .wpcf7-form-control {
+	text-align: right;
+	padding-left: 0;
+	padding-right: 60px;
+}
+html[dir="rtl"] .menu_popupform .close {
+	float: left;
+}
+html[dir="rtl"] .wpcf7-form .wpcf7-form-control {
+	text-align: right;
+}
+html[dir="rtl"] .menu_popupform .wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	float: right;
+}
+
+/* - Menu */
+html[dir="rtl"] .navbar-nav > li {
+	float: right;
+}
+html[dir="rtl"] .navbar-nav.navbar-right {
+	float: left !important;
+	padding-right: 0;
+	margin-right: 0!important;
+	margin-left: -15px !important;
+}
+
+html[dir="rtl"] .ownavigation .navbar-nav li .dropdown-menu > li > a {
+	text-align: right;
+}
+html[dir="rtl"] .header_s .ownavigation .navbar-nav > li:last-child {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* - About Section */
+html[dir="rtl"] .about-detail .chef-detail .cnt ul li + li {
+	margin-left: 0;
+	margin-right: 20px;
+}
+html[dir="rtl"] .about-detail .chef-detail span,
+html[dir="rtl"] .about-detail .chef-detail .cnt {
+	margin-right: 30px;
+	margin-left: 0;
+}
+html[dir="rtl"] .about-img-block {
+	display: inline-block;
+	margin-top: 30px;
+}
+html[dir="rtl"] .about-detail .chef-detail .cnt ul {
+	padding-right: 0;
+}
+
+/* - Menu Section */
+html[dir="rtl"] .menu-section .menu-item .item-thumb {
+	float: right;
+}
+html[dir="rtl"] .menu-section .menu-item > span {
+	margin-right: 10px;
+}
+html[dir="rtl"] .menu-section .menu-item > span::before {
+	margin-left: 15px;
+	margin-right: 0;
+}
+html[dir="rtl"] .menu-section .menu-item h3 {
+	margin-left: 0;
+}
+html[dir="rtl"] .menu-section .bottom-img {
+	left: 10px;
+	right: auto;
+	text-align: left;
+}
+html[dir="rtl"] .menu-section .top-img {
+	right: 10px;
+	left: auto;	
+}
+
+/* - Testimonial Section */
+html[dir="rtl"] .testimonial-section .carousel-indicators {
+	padding-right: 0;
+}
+
+/* - Single Event Page */
+.event-single-content .event-details span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.event-single-content .event-details span i{
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/* - Blog */
+html[dir="rtl"] article[class*="type-"] .entry-content > .post-date {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] article[class*="type-"] .entry-content {
+	padding-left: 0;
+	padding-right: 110px;
+}
+html[dir="rtl"] article[class*="type-"] .entry-content .entry-meta span i {
+	margin-left: 13px;
+	margin-right: 0;
+}
+html[dir="rtl"] .post-categories > span,
+html[dir="rtl"] .entry-meta > span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir="rtl"] article[class*="type-"] .entry-content .entry-meta span + span {
+	margin-right: 15px;
+	margin-left: 0;
+}
+
+/* - Single Blog */
+html[dir="rtl"] .entry-footer .tags-links > a:first-child {
+	margin-right: 25px;
+}
+html[dir="rtl"] .single-post .social-share {
+	padding-right: 0;
+}
+html[dir="rtl"] .single-post .social-share span {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+html[dir="rtl"] .single-post .social-share li:last-of-type {
+	margin-right: 5px;
+}
+html[dir="rtl"] article[class*="type-"] .entry-footer {
+	padding: 18px 145px 18px 32px;
+}
+html[dir="rtl"] .single-post .social-share,
+html[dir="rtl"] .single-post .post-categories {
+	margin-right: 115px;
+	margin-left: 0;
+}
+html[dir="rtl"] article[class*="type-"] .entry-footer::before {
+	right: 110px;
+	left: 0;
+}
+
+html[dir="rtl"] article[class*="type-"] .about-author {
+	padding-right: 110px;
+	padding-left: 0;
+}
+html[dir="rtl"] article[class*="type-"] .about-author .author-details i {
+	left: auto;
+	right: 30px;
+}
+html[dir="rtl"] article[class*="type-"] .about-author .author-details {
+	padding: 30px 130px 30px 30px;
+}
+
+html[dir="rtl"] .comments-area {
+	padding-left: 0;
+	padding-right: 110px;
+}
+html[dir="rtl"] .comment-body {
+	padding: 22px 135px 22px 25px;
+}
+html[dir="rtl"] .comment-body::before {
+	right: 105px;
+	left: 0;
+}
+html[dir="rtl"] .comment-author .avatar {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .comment-author::before {
+	border-left: 10px solid #ddd;
+	right: 95px;
+	left: auto;
+	border-right: none;
+}
+html[dir="rtl"] .comment-author::after{
+	border-left: 10px solid #fff;
+	border-right: none;
+    right: 96px;
+	left: auto;
+}
+html[dir="rtl"] .comment-list .children {
+	margin: 0 5px 0 0;
+	padding-right: 5px;
+	padding-left: 0;
+}
+html[dir="rtl"] .comment-list .children > li {
+	padding-right: 0.5em;
+	padding-left: 0;
+}
+
+/* - Newsletter Section */
+html[dir="rtl"] .newsletter-section .container > h3 {
+	margin-left: 80px;
+	margin-right: 0;
+}
+html[dir="rtl"] .newsletter-section form.mc4wp-form, 
+html[dir="rtl"] .newsletter-section .newsletter-form {
+	float: left;
+}
+
+/* - Widget Setting */
+html[dir="rtl"] .widget ul li > a {
+	padding-right: 15px;
+	padding-left: 0;
+}
+html[dir="rtl"] .widget_recentposts .recent-content {
+	padding-right: 95px;
+	padding-left: 0;
+}
+html[dir="rtl"] .widget_recentposts .recent-content > a > i {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .widget_recentposts .recent-content.no_post_thumb {
+	padding-right: 0;
+}
+html[dir="rtl"] .tagcloud a {
+	margin-left: 7px;
+	margin-right: 0;
+}
+
+/* - Footer Widget Setting */
+html[dir="rtl"] .widget_workingtime td {
+	text-align: right;
+}
+html[dir="rtl"] footer .widget > ul:first-of-type {
+	padding-right: 0;
+}
+html[dir="rtl"] footer .widget ul li > a {
+	padding-right: 25px;
+	padding-left: 0;
+}
+
+html[dir="rtl"] footer .widget_social ul li a { 
+	padding: 0;
+}
+
+/* - Book Table Section */
+html[dir="rtl"] .book-table-section .input-group {
+	padding-right: 20px;
+	padding-left: 0;
+}
+html[dir="rtl"] .book-table-section .input-group .input-group-addon {
+	position: absolute;
+	right: 20px;
+	z-index: 3;
+	top: 8px;
+}
+html[dir="rtl"] .book-table-section .input-group .input-group-addon i {
+	margin-left: 0;
+	height: auto;
+	width: auto;
+	vertical-align: middle;
+}
+html[dir="rtl"] .book-table-section .wpcf7-form .wpcf7-form-control {
+	padding-right: 30px;
+}
+
+/* - Team Section */
+.team-content > ul {
+	padding-right: 0;
+}
+
+/* - Footer Setting */
+html[dir="rtl"] footer .widget-title::before {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] footer .widget-title {
+	text-align: right;
+}
+html[dir="rtl"] footer .widget ul li a::before {
+	margin-left: 15px;
+	margin-left: 0;
+	right: -15px;
+	left: auto;
+	content: "";
+}
+html[dir="rtl"] footer .widget.widget_about ul li > a {
+	padding-right: 0;
+}
+html[dir="rtl"] footer .widget .footer-social li:last-of-type {
+	margin-left: 0;
+    margin-right: 8px;
+}
+html[dir="rtl"] .widget_calendar #next,
+html[dir="rtl"] .widget_calendar #prev {
+	text-align: right;
+}
+html[dir="rtl"] footer .widget.widget_rss ul li > a {
+	padding-right: 0;
+}
+
+html[dir="rtl"] footer .widget.widget_instagram ul li {
+	margin-right: 0;
+	margin-left: 5px;
+	float: right;
+}
+html[dir="rtl"] footer .widget.widget_instagram ul li > a {
+	padding-right: 0;
+}
+
+html[dir="rtl"] .mfp-gallery {
+	direction: ltr;
+}
+
+/* - Blog */
+html[dir="rtl"] .widget ul li a::before {
+	content: "\f104";
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .widget.widget_rss ul li > a {
+	padding-right: 0;
+}
+
+/* - WooCommerce */
+html[dir="rtl"] .woocommerce-shipping-fields h3::before,
+html[dir="rtl"] .woocommerce-billing-fields h3::before,
+html[dir="rtl"] .woocommerce div.product .product_title::before {
+	right: 0;
+	left: auto;
+}
+
+/* - Order Recevied Form */
+html[dir="rtl"] .woocommerce-order-received .woocommerce .order_details li {
+	float: right;
+	border-right: none;
+	border-left: 1px solid #000000;
+	margin-left: 20px;
+	margin-right: 0;
+	padding-left: 20px;
+	padding-right: 0;
+}
+html[dir="rtl"] .woocommerce-order-received .woocommerce .order_details li:last-of-type{
+	border-left: none;
+}
+html[dir="rtl"] .woocommerce form.checkout_coupon,
+html[dir="rtl"] .woocommerce form.login,
+html[dir="rtl"] .woocommerce form.register {
+	text-align: right;
+}
+html[dir="rtl"]  .woocommerce .login .woocommerce-Button.button {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/* - Contact Form */
+html[dir="rtl"] .contact-form h3::before {
+	right: 0;
+	left: auto;
+}
+html[dir="rtl"] .gm-style .gm-style-iw {
+	text-align: left;
+}
+html[dir="rtl"]  .contact-section .wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	float: right;
+}
+
+/* ## Responsive */
+/* - min-width: 992 */
+@media (min-width: 992px) {
+	html[dir="rtl"] .header_s .ownavigation .navbar-header {
+		margin: 24px 0;
+	}
+	html[dir="rtl"] .navbar-header {
+		float: right;
+	}
+	html[dir="rtl"] .navbar-nav.navbar-right {
+		margin-left: -15px !important;
+	}
+	
+	/* - Header */
+	html[dir="rtl"] .ownavigation ul > li > .dropdown-menu {
+		right: 0; 
+	}
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu {
+		left: 0; 
+	}
+	html[dir="rtl"] .ownavigation ul > li > .dropdown-menu,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul	{
+		left: auto;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul {
+		right: 100%;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		left: 100%;
+	}
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	html[dir="rtl"] .ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		right: auto;
+	}
+}
+
+/* - min-width: 992 to max-width: 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	/* - Blog: 10 Level Comment Form */
+	body.projectname-rtl .comment-list .children {
+		padding-right: 12px;
+		margin: 0 12px 0 0;
+	}
+	body.projectname-rtl .comment-list .children > li {
+		padding-right: 0.2em;
+	}
+	
+	article[class*="type-"] .entry-content .entry-meta span + span {
+		margin-right: 0;
+	}
+	html[dir="rtl"] .header_s .top-header1 .top-left span {
+		width: 50%;
+	}
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px) {	
+
+	/* - Blog: 10 Level Comment Form */
+	body.projectname-rtl .comment-list .children {
+		padding-right: 8px;
+		margin: 0 8px 0 0;
+	}
+	
+	/* - Header */
+	html[dir="rtl"] .navbar-brand {
+		float: right;
+	}
+	html[dir="rtl"] .ownavigation .navbar-toggle {
+		float: left;
+	}
+	html[dir="rtl"] .ownavigation #loginpanel {
+		right: auto;
+		left: 55px;
+	}
+	html[dir="rtl"] .ownavigation #slideit, 
+	html[dir="rtl"] .ownavigation #closeit {
+		right: -7px;
+	}
+	
+	html[dir="rtl"] .header_s .ownavigation .ddl-switch {
+		left: 0;
+		right: auto;
+	}
+	html[dir="rtl"] .nav.navbar-nav.navbar-left {
+		padding-right: 0;
+	}
+	html[dir="rtl"] .ownavigation .dropdown-menu {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+	html[dir="rtl"] .header_s .navbar-right {
+		margin-bottom: 15px;
+		margin-left: 0 !important;
+		padding-right: 0;
+	}
+	
+	html[dir="rtl"] .header_s .navbar-nav > li {
+		float: none;
+	}
+	html[dir="rtl"] .ownavigation .navbar-nav li a {
+		float: right;
+	}
+	
+	/* - Blog */
+	article[class*="type-"] .entry-content .entry-meta span + span {
+		margin-right: 0;
+	}
+	html[dir="rtl"] article[class*="type-"] .entry-content {
+		padding-right: 95px;
+	}
+	
+	.newsletter-section form.mc4wp-form,
+	.newsletter-section .newsletter-form {
+		float: none;
+	}
+	
+	html[dir="rtl"] .comment-list .children {
+		margin: 0;
+		padding-right: 0;
+	}
+	html[dir="rtl"] .comment-list .children > li{
+		padding-right: 0.2em;
+	}
+	html[dir="rtl"] article[class*="type-"] .entry-content .entry-meta span + span {
+		margin-right: 0;
+	}
+	html[dir="rtl"] .comment-body {
+		padding: 15px 125px 15px 15px;
+	}
+	
+	html[dir="rtl"] .header_s .top-header1 .top-right .top-social {
+		margin-left: 0;
+	}
+	
+	/* - Order Recevied Form */
+	html[dir="rtl"] .woocommerce-order-received .woocommerce .order_details li {
+		border-left: none;
+	}
+	
+	html[dir="rtl"] .header_s .top-header1 .top-left span {
+		width: 60%;
+	}
+}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {
+	
+	/* - Header */
+	html[dir="rtl"] .header_s .ownavigation.navbar > .container .navbar-brand {
+		margin: 7px 0;
+	}
+	html[dir="rtl"] .header_s .top-header1 .top-left span {
+		float: none;
+	}
+	html[dir="rtl"] .ownavigation #loginpanel {
+		left: 42px;
+	}
+	html[dir="rtl"] .header_s .top-header1 .top-left {
+		margin-bottom: 15px;
+	}
+	html[dir="rtl"] .header_s .ownavigation.navbar > .container .navbar-brand {
+		margin: 12px 0 5px;
+	}
+	
+	html[dir="rtl"] .header_s .menupopup_btn {
+		margin-right: 10px;
+		float: none;
+	}
+	html[dir="rtl"] .header_s .top-header1 .top-right .top-social {
+		margin-right: 0;
+		margin-left: 25px;
+		padding-right: 0;
+	}	
+	html[dir="rtl"]  .widget_offer {
+		text-align: right;
+	}
+}
+
+/* - max-width: 479 */
+@media (max-width: 479px) {
+	
+	/* - Blog: 10 Level Comment Form */
+	html[dir="rtl"] .comment-list .children {
+		padding-right: 0;
+		margin: 0;
+	}	
+	html[dir="rtl"] .header_s .top-header1 .top-left span {
+		display: inline-block;
+		float: none;
+		width: 100%;
+		margin-top: 5px;
+	}	
+	html[dir="rtl"] .header_s .menupopup_btn {
+		width: 100%;
+	}
+	html[dir="rtl"] .header_s .top-header1 .top-left {
+		margin-bottom: 3px;
+	}	
+	html[dir="rtl"] article[class*="type-"] .entry-footer::before {
+		right: 0;
+	}
+	html[dir="rtl"] article[class*="type-"] .entry-footer {
+		padding: 18px 15px 18px 32px;		
+	}
+	html[dir="rtl"] .single-post .social-share,
+	html[dir="rtl"] .single-post .post-categories {
+		margin-right: 0;
+	}
+	html[dir="rtl"] .comments-area,
+	html[dir="rtl"] article[class*="type-"] .about-author {
+		padding-right: 0;
+	}
+	html[dir="rtl"] article[class*="type-"] .about-author .author-details {
+		padding: 15px 110px 15px 15px;
+	}
+	html[dir="rtl"] article[class*="type-"] .about-author .author-details i {
+		right: 15px;
+	}	
+	html[dir="rtl"] .comment-body {
+		padding: 15px 92px 15px 12px;
+	}	
+	html[dir="rtl"] .comment-body::before {
+		right: 80px;
+	}
+	html[dir="rtl"] .comment-author::after {
+		right: 72px;
+	}
+	html[dir="rtl"] .comment-author::before {
+		right: 70px;
+	}	
+	html[dir="rtl"] .header_s .top-header1 .top-left span {
+		width: 100%;
+	}
+}

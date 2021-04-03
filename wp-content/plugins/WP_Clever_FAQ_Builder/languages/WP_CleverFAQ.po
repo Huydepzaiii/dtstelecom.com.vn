@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: cfaq\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.1\n"
+
+msgid "Clever F.A.Qs"
+msgstr ""
+
+msgid "Click the flag icon to set this step at first step"
+msgstr ""
+
+msgid "Start a link to another step"
+msgstr ""
+
+msgid "Remove this step"
+msgstr ""
+
+msgid "Duplicate this step"
+msgstr ""
+
+msgid "Edit this step"
+msgstr ""
+
+msgid "Edit a link"
+msgstr ""
+
+msgid "Is selected"
+msgstr ""
+
+msgid "Is unselected"
+msgstr ""
+
+msgid "An error occurred during the transfer. Using an FTP software, please verify that the tmp/ folder has rights set to 0747"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "New answer"
+msgstr ""
+
+msgid "My Step"
+msgstr ""
+
+msgid "WP Clever F.A.Q"
+msgstr ""
+
+msgid "Return to the FAQ list"
+msgstr ""
+
+msgid "FAQs List"
+msgstr ""
+
+msgid "Add a new FAQ"
+msgstr ""
+
+msgid "Import FAQs"
+msgstr ""
+
+msgid "Export all FAQs"
+msgstr ""
+
+msgid "Faq title"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Edit this FAQ"
+msgstr ""
+
+msgid "Preview this FAQ"
+msgstr ""
+
+msgid "Duplicate this FAQ"
+msgstr ""
+
+msgid "Delete this FAQ"
+msgstr ""
+
+msgid "Edit a step"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Step content"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "This is the step name"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "This is the content of the current step"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Answers"
+msgstr ""
+
+msgid "Add a new Answer"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Link conditions"
+msgstr ""
+
+msgid "All conditions must be filled"
+msgstr ""
+
+msgid "One of the conditions must be filled"
+msgstr ""
+
+msgid "Add a condition"
+msgstr ""
+
+msgid "Element"
+msgstr ""
+
+msgid "Condition"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Integrate the FAQ in a page"
+msgstr ""
+
+msgid "Add a step"
+msgstr ""
+
+msgid "View the FAQ"
+msgstr ""
+
+msgid "Remove all steps"
+msgstr ""
+
+msgid "Steps manager"
+msgstr ""
+
+msgid "Are you sure you want to delete all steps ?"
+msgstr ""
+
+msgid "FAQ settings"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Texts"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+msgid "Send new questions by email ?"
+msgstr ""
+
+msgid "If enabled, the new suestions will be sent to the defined email"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Admin email"
+msgstr ""
+
+msgid "The new questions will be sent to this address"
+msgstr ""
+
+msgid "Email subject"
+msgstr ""
+
+msgid "Something like \"New question from your website\""
+msgstr ""
+
+msgid "Delay before restart the faq when the user has submitted a question"
+msgstr ""
+
+msgid "Enter a delay in seconds"
+msgstr ""
+
+msgid "New questions asked by users"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "User's email"
+msgstr ""
+
+msgid "Title of the FAQ"
+msgstr ""
+
+msgid "This title will be displayed on top of the F.A.Q"
+msgstr ""
+
+msgid "Text \"I don't see my question\""
+msgstr ""
+
+msgid "Something like \"I don't see my question in the list\""
+msgstr ""
+
+msgid "Label \"Your question\""
+msgstr ""
+
+msgid "Something like \"Your question\""
+msgstr ""
+
+msgid "Label \"Your email\""
+msgstr ""
+
+msgid "Something like \"Your email\""
+msgstr ""
+
+msgid "Label \"Send\""
+msgstr ""
+
+msgid "Something like \"Send\""
+msgstr ""
+
+msgid "Text after submitting a new question"
+msgstr ""
+
+msgid "Something like \"Your request was correctly sent, we will reply as soon as possible. Thank you !\""
+msgstr ""
+
+msgid "Title color"
+msgstr ""
+
+msgid "ex : #000000"
+msgstr ""
+
+msgid "Background color"
+msgstr ""
+
+msgid "ex : #FFFFFF"
+msgstr ""
+
+msgid "Question background color"
+msgstr ""
+
+msgid "ex : #ecf0f1"
+msgstr ""
+
+msgid "Question text color"
+msgstr ""
+
+msgid "ex : #bdc3c7"
+msgstr ""
+
+msgid "Answers background color"
+msgstr ""
+
+msgid "ex : #1abc9c"
+msgstr ""
+
+msgid "Answers text color"
+msgstr ""
+
+msgid "Fields background color"
+msgstr ""
+
+msgid "Fields text color"
+msgstr ""
+
+msgid "ex : #34495e"
+msgstr ""
+
+msgid "Fields focus color"
+msgstr ""
+
+msgid "ex : #1bc2a1"
+msgstr ""
+
+msgid "Buttons background color"
+msgstr ""
+
+msgid "Buttons text color"
+msgstr ""
+
+msgid "Question not found text color"
+msgstr ""
+
+msgid "Question not found background color"
+msgstr ""
+
+msgid "ex : #e67e22"
+msgstr ""
+
+msgid "Restart text background color"
+msgstr ""
+
+msgid "Restart text color"
+msgstr ""
+
+msgid "Use Google font ?"
+msgstr ""
+
+msgid "If disabled, the default theme font will be used"
+msgstr ""
+
+msgid "Google font name"
+msgstr ""
+
+msgid "See available Google fonts"
+msgstr ""
+
+msgid "ex : Lato"
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "You can paste your custom CSS rules here"
+msgstr ""
+
+msgid "Import data"
+msgstr ""
+
+msgid "Be carreful : all existing F.A.Q and steps will be erased importing new data."
+msgstr ""
+
+msgid "Select the .zip data file"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Export data"
+msgstr ""
+
+msgid "Download the exported data"
+msgstr ""
+
+msgid "An error occurred during the transfer"
+msgstr ""
+
+msgid "Labels color"
+msgstr ""
+
+msgid "F.A.Q"
+msgstr ""
+
+msgid "Select a F.A.Q"
+msgstr ""
+
+msgid "Text \"Restart the F.A.Q\""
+msgstr ""
+
+msgid "Something like \"Restart the F.A.Q\""
+msgstr ""
+
+msgid "The title will be displayed at top of the step"
+msgstr ""
+
+msgid "If the step contains a question, please write it here"
+msgstr ""
+
+msgid "Ajax navigation support"
+msgstr ""
+
+msgid "Activate this option if your theme uses ajax navigation to display pages"
+msgstr ""
+
+msgid "To directly open the FAQ on this step, simply use the url of the page where is pasted the shortcode, followed by"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "The selected tag will be used for the titles of the steps"
+msgstr ""
+
+msgid "Tag used for titles"
+msgstr ""

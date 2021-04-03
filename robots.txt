@@ -1,0 +1,20 @@
+User-Agent: *
+Allow: /wp-content/uploads/
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /readme.html
+Disallow: /trackback/
+Disallow: /go/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://dtstelecom.com.vn/attachment-sitemap.xml 
+Sitemap: https://dtstelecom.com.vn/sitemap_index.xml
+Sitemap: https://dtstelecom.com.vn/dich-vu-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/tin-tuc-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/gioi-thieu-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/lien-ket-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/y-kien-khach-hang-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/ho-tro-kh-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/chinh-sach-mua-hang-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/ten-mien-sitemap.xml	
+Sitemap: https://dtstelecom.com.vn/danh-muc-sitemap.xml

@@ -1,0 +1,83 @@
+
+
+# BEGIN REMOVE SLUG CUSTOM POST TYPE RULES
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^/(.+)/$ /$1 [R=301,L]
+RewriteRule ^dich-vu/(.+)/$ /$1 [R=301,L]
+RewriteRule ^quan-tri-chung/(.+)/$ /$1 [R=301,L]
+RewriteRule ^tin-tuc/(.+)/$ /$1 [R=301,L]
+RewriteRule ^banner/(.+)/$ /$1 [R=301,L]
+RewriteRule ^gioi-thieu/(.+)/$ /$1 [R=301,L]
+RewriteRule ^lien-ket/(.+)/$ /$1 [R=301,L]
+RewriteRule ^tong-quan/(.+)/$ /$1 [R=301,L]
+RewriteRule ^y-kien-khach-hang/(.+)/$ /$1 [R=301,L]
+RewriteRule ^ho-tro-kh/(.+)/$ /$1 [R=301,L]
+RewriteRule ^chinh-sach-mua-hang/(.+)/$ /$1 [R=301,L]
+RewriteRule ^goi/(.+)/$ /$1 [R=301,L]
+RewriteRule ^bo-sung/(.+)/$ /$1 [R=301,L]
+RewriteRule ^yeu-cau/(.+)/$ /$1 [R=301,L]
+RewriteRule ^ten-mien/(.+)/$ /$1 [R=301,L]
+RewriteRule ^amn_smtp/(.+)/$ /$1 [R=301,L]
+# END REMOVE SLUG CUSTOM POST TYPE RULES
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Images
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+
+# Video
+ExpiresByType video/mp4 "access plus 1 year"
+ExpiresByType video/mpeg "access plus 1 year"
+
+# CSS, JavaScript
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+
+# Others
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+##### cau hinh redirect http to https ####
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+#### end ###
+
+# BEGIN ShortPixelWebp
+
+# END ShortPixelWebp
+
+# BEGIN Enable Gzip Compression
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</IfModule>
+Redirect 301 /en/nhom-tin/tin-tuc https://dtstelecom.com.vn/en/tin-tuc
+Redirect 301 /vi/nhom-tin/tin-tuc https://dtstelecom.com.vn/vi/tin-tuc
+Redirect 301 /en/tim-kiem/ https://dtstelecom.com.vn/en/
+Redirect 301 /vi/tim-kiem/ https://dtstelecom.com.vn/vi/
+Redirect 301 /en/tim-kiem-2/ https://dtstelecom.com.vn/en/
+Redirect 301 /vi/tim-kiem-2/ https://dtstelecom.com.vn/vi/
+Redirect 301 /vi/private-cloud/ https://dtstelecom.com.vn/vi/dich-vu/private-cloud/
+Redirect 301 /en/private-cloud/ https://dtstelecom.com.vn/en/dich-vu/private-cloud
+

@@ -1,0 +1,341 @@
+#layoutGroup3 .block
+{
+	padding: 0;
+	margin-bottom: 10px;
+	background-color:#f2f2f2;
+}
+
+#layoutGroup3 .block h2
+{
+	display:block;
+	background-color:#248de6;
+	height: 27px;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	line-height: 27px;
+	padding: 0 10px;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;
+	text-transform:uppercase;
+}
+
+#layoutGroup3 .block h3
+{
+	color:#248de6;
+	font-size: 100%;
+	margin: 0;
+	padding: 0 0 2px 0;
+}
+
+#layoutGroup3 .block .blockcontent
+{
+	margin:0;
+	padding:5px 10px;
+}
+
+#layoutGroup3 .paddin0 .blockcontent
+{
+	padding:5px 0;
+}
+
+#layoutGroup3 ul
+{
+	margin:0;
+	padding:0;
+	list-style:none
+}
+
+#layoutGroup3 ul li
+{
+	text-transform:capitalize;
+	margin:0;
+	padding:5px 0 4px 0;
+	font-size:13px;
+}
+
+#layoutGroup4 .block
+{
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+#layoutGroup4 .block h2
+{
+	color: #595959;
+	padding: 5px 0;
+	font-size: 18px;
+	margin: 0 0 10px 0px;
+	font-family:"Times New Roman", Times, serif;
+	border-bottom:1px solid #f2f2f2;
+}
+
+#layoutGroup4 .block .intro
+{
+	font-size:12px;
+	color:#666;
+}
+
+#content_left_contener
+{
+	padding:0;
+	float:left;
+	margin-right:-300px;
+	width:100%;
+	overflow:hidden;
+}
+
+.field input[type=text], .field input[type=password]
+{
+	font-size: 13px;
+	border: 1px solid #D8D3D0;
+	border-radius: 2px 2px 2px 2px;
+	margin: 0;
+	color: #858585;
+	height: 40px;
+	padding: 10px;
+	width: 280px;
+}
+
+.preorder
+{
+	padding-left:5px;
+	color:#248de6;
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.field select
+{
+	border: 1px solid #D8D3D0;
+	border-radius: 2px 2px 2px 2px;
+	margin: 0;
+	color: #858585;
+	padding: 9px;
+	height: 40px;
+	width: 280px;
+}
+
+.field textarea
+{
+	width:280px;
+}
+
+.field .textlabel
+{
+	display: block;
+	float: left;
+	text-align: left;
+	padding: 9px 5px 0 0;
+	width: 150px;
+	font-size: 14px;
+	color: #414141;
+}
+
+.Field50
+{
+	width:91px !important;
+}
+
+.field
+{
+	display: block;
+	padding: 7px 0 0 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+h3
+{
+	text-transform:uppercase;
+	padding:5px 0 3px 0;
+	font-weight:bold;
+	font-size: 14px;
+	color: #303030;
+	margin: 15px 0px 15px 0;
+	border-bottom:1px solid #f2f2f2;
+}
+
+#layoutGroup3 .bold
+{
+	font-weight:bold;
+}
+
+.customer .more
+{
+	text-transform:none;
+	display:block;
+	float:right;
+	margin-right:10px;
+	font-size:12px;
+}
+
+.customer .bgrmore
+{
+	text-transform:none;
+	text-decoration:none !important;
+	display:block;
+	float:right;
+	margin:0;
+	font-size:12px;
+	padding:2px 5px;
+	background-color:#248de6;
+	color:#fff;
+}
+
+.customer a
+{
+	color:#248de6;
+}
+
+.customer a:hover
+{
+	text-decoration:underline;
+}
+
+.address
+{
+	margin:5px;
+	padding:10px;
+	border:1px solid #f2f2f2;
+}
+
+.customer
+{
+	margin-bottom:10px;
+}
+
+.ordertable
+{
+	border-right:1px solid #f2f2f2;
+	border-bottom:1px solid #f2f2f2;
+}
+
+.ordertable th, .ordertable td
+{
+	padding:5px;
+	border-left:1px solid #f2f2f2;
+	border-top:1px solid #f2f2f2;
+}
+
+.ordertable2
+{
+	border:1px solid #f2f2f2;
+	border-bottom:0;
+}
+
+.ordertable a, ordertable2 a
+{
+	color:#248de6;
+}
+
+.ordertable2 th, .ordertable2 td
+{
+	padding:5px;
+	border-bottom:1px solid #f2f2f2;
+}
+
+.cfield
+{
+	font-size: 14px;
+	color: #414141;
+	padding-bottom:5px;
+}
+
+.cfield a.deletew
+{
+	color:#F00 !important;
+}
+
+.cfield a.deletew:hover
+{
+	color:#248de6 !important;
+}
+
+.cfield span
+{
+	font-size:12px;
+	margin:5px 20px 0 0;
+}
+
+.cfield .textlabel
+{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 120px;
+}
+
+.deletew
+{
+	font-size:90%;
+	color:#F00;
+	padding-left:5px;
+}
+
+.contents
+{
+	width:350px;
+	float:right;
+}
+
+.saparator
+{
+	line-height:14px;
+	display:inline !important;
+	font-size:10px;
+	color:#248de6;
+	float:none !important;
+	padding:0 5px;
+}
+
+.viewmessages
+{
+	width:500px;
+}
+
+#module_customersreview .prices, #module_customerswishlist .prices
+{
+	color:#248de6;
+	padding-right:10px;
+	font-weight:bold;
+}
+
+.goshop a, .outofstock a, .booking a
+{
+	padding:10px 25px;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	display:block;
+	white-space:nowrap;
+}
+
+.goshop a
+{
+	background-color:#ff3300;
+}
+
+.outofstock a
+{
+	background-color:#bfbfbf;
+}
+
+.booking a
+{
+	background-color:#248de6;
+}
+
+.goshop a:hover
+{
+	background-color:#e02d01;
+}
+
+.booking a:hover
+{
+	background-color:#029243;
+}

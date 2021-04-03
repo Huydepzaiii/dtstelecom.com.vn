@@ -1,0 +1,1 @@
+[21-Feb-2012 10:15:22] PHP Fatal error:  Call to undefined function  add_filter() in /home/phanlama/public_html/wp-content/plugins/wp-vietnamese-url/WP-Vietnamese-URL.php on line 87

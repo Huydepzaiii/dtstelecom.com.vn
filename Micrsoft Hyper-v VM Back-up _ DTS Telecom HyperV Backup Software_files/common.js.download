@@ -1,0 +1,98 @@
+// JavaScript Document
+function switchLang() {
+	//var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1); 
+	//document.write("<div class='btn-lang'><a href='../cn/" + pageName + "'>简</a></div><div class='btn-lang'><a class='active' href='#'>繁</a></div>");
+	document.write("简繁");
+}
+
+<!-- Marketing Information -->
+
+// 2007-11-19 added to enable collecting marketing statistics
+
+function setCookie (name, value, days2Expiry, path, domain, secure) {
+  var cookie_string = name + "=" + escape ( value );
+  if (days2Expiry) {
+    var expires = new Date(new Date().getTime() + (24 * 60 * 60 * 1000 * days2Expiry));
+    cookie_string += "; expires=" + expires.toGMTString();
+  }
+  if (path) cookie_string += "; path=" + escape ( path );
+  if (domain) cookie_string += "; domain=" + escape ( domain );
+  if (secure) cookie_string += "; secure";
+  document.cookie = cookie_string;
+}
+
+function getCookie(c_name) {
+	if (document.cookie.length>0) {
+		c_start=document.cookie.indexOf(c_name + "=")
+		if (c_start!=-1) { 
+			c_start=c_start + c_name.length+1 
+			c_end=document.cookie.indexOf(";",c_start)
+			if (c_end==-1) c_end=document.cookie.length
+			return unescape(document.cookie.substring(c_start,c_end))
+		} 
+	}
+	return ""
+}
+
+function getURLValueNav(theURL, name) {
+	var qparts = theURL.split("?");
+	if (qparts.length > 1) {
+		var query = qparts[1];
+		var vars = query.split("&");
+		for (i=0;i<vars.length;i++) {
+			var parts = vars[i].split("=");
+			if (parts[0] == name) {
+				// return parts[1];
+				var value = unescape(parts[1]); // unescape %?? values
+				return value.replace(/\+/g, " "); // change all + to ' '
+			}
+		}
+	}
+	return "";
+}
+
+var mktqs="";
+var mktInfoTable = new Array ();
+mktInfoTable["rf"] = "rf";
+mktInfoTable["kw"] = "kw";
+mktInfoTable["cp"] = "cp";
+mktInfoTable["ag"] = "ag";
+mktInfoTable["at"] = "at";
+mktInfoTable["rt"] = "rt";
+
+var days2Expiry = 365;
+
+var domainName = location.hostname;
+if (domainName.split(".").length > 1) {
+	domainName = "." + domainName.split('.').slice(-2).join(".");
+}
+
+for (var mktKey in mktInfoTable) { //print the values into a table cell for each iteration
+	var cookieValue = getCookie(mktKey);
+	var urlParamValue = getURLValueNav(location.href, mktKey);
+	if(urlParamValue!=null && urlParamValue !="") {
+		if(cookieValue==null || cookieValue=="" ) {
+			setCookie (mktKey, urlParamValue, days2Expiry, "/", domainName, false) ;
+			mktqs = mktqs + "&" + escape(mktInfoTable[mktKey]) + "=" + escape(urlParamValue);
+			if(mktKey=="rf") {
+				var referredTime = new Date().getTime();
+				setCookie ("rt", referredTime, days2Expiry, "/", domainName, false) ;
+			}
+		}
+		else {
+			mktqs = mktqs + "&" + escape(mktInfoTable[mktKey]) + "=" + escape(cookieValue);
+		}
+	}
+	else if(cookieValue!=null && cookieValue!="" ) {
+		mktqs = mktqs + "&" + escape(mktInfoTable[mktKey]) + "=" + escape(cookieValue);
+	}
+}
+
+// 2007-11-19 added to enable collecting marketing statistics
+<!-- Marketing Information [End] -->
+
+var CBK_LATEST_VERSION = '3.7.0.0';
+var CBK_LATEST_RELEASE_DATE= '18-Feb-2019';
+var CBK_LATEST_RELEASE_DATE_ZH = '2019年2月18日';
+
+var CBM_LATEST_VERSION = '1.02';

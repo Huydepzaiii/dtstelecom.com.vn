@@ -1,0 +1,148 @@
+.list_btn {	
+	z-index: 1;
+}
+
+.list_btn .prev, .list_btn .next {
+	border:1px solid #fff;
+	display: inline-block;
+	padding:8px 5px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	margin: 0 6px;
+}
+.list_btn .prev {
+	position: absolute;
+	top: 95px;
+	left:0;
+}
+
+.list_btn .next {
+	position: absolute;
+	top: 95px;
+	right:0;
+}
+
+.list_btn .prev i
+{
+	display:block;
+	font-size:17px;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.list_btn .next i
+{
+	display:block;
+	font-size:17px;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.list_btn .prev:hover
+{
+	border:1px solid #ccc;
+}
+.list_btn .next:hover
+{
+	border:1px solid #ccc;
+}
+
+.disable:hover, .ndisable:hover
+{
+	color:#fff;
+	border:1px solid #fff !important;
+	cursor:default !important;
+}
+
+.mainmenu .submenu0
+{
+	z-index:999999;
+}
+
+.mainmenu .submenu0
+{
+	box-shadow: 0 1px 3px #fff !important;
+	-moz-box-shadow: 0 1px 3px #fff !important;
+	-webkit-box-shadow: 0 1px 3px #fff !important;
+}
+
+.mainmenu li a.havechild, .mainmenu li:hover li a.havechild
+{
+	background:url(../images/havechild_new.png) 200px 12px no-repeat;
+}
+
+.mainmenu li a.havechild:hover, .mainmenu li:hover a.havechild,.mainmenu li li:hover a.havechild
+{
+	background:none;
+}
+
+.mainmenu li a
+{
+	padding:8px 0 8px 5px !important;
+}
+
+.mainmenu li
+{
+	transition: padding-left .3s;
+}
+
+.mainmenu li:hover
+{
+	padding:0 0 0 15px;
+}
+
+.mainmenu li li:hover
+{
+	padding: 2px 0 2px 0 !important;
+}
+.mainmenu .submenu0 li 
+{
+
+}
+.mainmenu .submenu0 li:hover ul 
+{
+  display:block;
+}
+.mainmenu .submenu0 ul 
+{
+	 border: 1px solid #ccc;
+	display: none;
+	left: 209px;
+	min-height: 410px;
+	position: absolute;
+	top: 0;
+	width: 940px;
+	z-index: 999999;
+	background:#f2f2f2;
+}
+
+.mainmenu .submenu0 ul  li ul 
+{
+  border:none;
+}
+.mainmenu .submenu0 ul  li a
+{
+  font-weight:bold;
+}
+
+.mainmenu .submenu0 ul  li 
+{
+  float:left;
+  width:200px;
+}
+.mainmenu .submenu0 ul  li ul 
+{
+  padding:0px;
+  display:block;
+  position:relative;
+  width:200px;
+  min-height:100%;
+  top:0px;
+  left:0px;
+}
+
+.mainmenu .submenu0 ul li.li_sub
+{
+  margin-bottom:10px;
+}

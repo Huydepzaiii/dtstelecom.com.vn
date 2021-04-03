@@ -1,0 +1,1 @@
+(function($) {  $('.categorychecklist').prepend('<li class="popular-category" id="category-all"><label class="selectit"><input type="checkbox" class="checkall" id="in-category-all" name="post_category[]"> Check all</label></li>');  $('.checkall').click(function () {    $(this).parents('ul:eq(0)').find(':checkbox').attr('checked', this.checked);  });})(jQuery);
